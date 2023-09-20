@@ -15,7 +15,7 @@ async function main() {
 
     let listItem = listItemTemplate
       .replaceAll("%CITY%", data.stad)
-      .replaceAll("%AVERAGE%", averageTemp.toFixed(2) + "p");
+      .replaceAll("%AVERAGE%", averageTemp.toFixed(2) + "u");
 
     listItem += "<ul>";
 
